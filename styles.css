@@ -1,0 +1,57 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 40px 150px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar__heading {
+  font-size: 30px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Intro Section */
+.intro__image {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  image-orientation: unset;
+  background-blend-mode: overlay;
+  height: 700px;
+  width: 100vw;
+  border-bottom-left-radius: 90px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.intro-image {
+  position: relative;
+  background-position: center;
+  bottom: 1750px;
+  right: 600px;
+  /* transform: scale(7); */
+  height: 4000px;
+  width: 4000px;
+}
